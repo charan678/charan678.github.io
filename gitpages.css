@@ -6,6 +6,7 @@ body {
     width: 1200px;
     padding: 2em 1.5em;
     background-color: darkseagreen;
+    margin-left: 100px;
 }
 
 #titlediv {
@@ -55,12 +56,19 @@ body {
     list-style-type:none;
 }
 
-#topic-list > li {
+#topic-list >  li {
     border: 1px solid green;
     padding: 1em;
 }
+#topic-list > a {
+    text-decoration:none;
+}
 
-#topic-list > li  > img {
+#topic-list > li > a > p{
+    padding: 1em;
+}
+
+#topic-list > li > a > img {
     display:block;
     float:left;
     width: 30%;
@@ -72,11 +80,11 @@ body {
     background-color: #555;
 }
 
-#topic-list > li > a {
-    width:inherit;
-    height:inherit;
-}
-
 #topicdiv {
     border-bottom: 5px solid green;
+}
+
+#wip {
+    padding: 5em 2em;
+    font: italic small-caps bold 12px/30px Georgia, serif;
 }
