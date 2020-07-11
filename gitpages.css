@@ -1,4 +1,82 @@
 body {
+    background-color: #F0FFF0;
+}
 
-    background-color: blue;
+#pagediv {
+    width: 1200px;
+    padding: 2em 1.5em;
+    background-color: darkseagreen;
+}
+
+#titlediv {
+    padding-top: 1em;
+    border-bottom: 5px solid green;
+    padding-bottom: 1em;
+}
+
+.titletab {
+    color: black;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.linkedin {
+    right: 100px;
+}
+
+.titletab:hover {
+    background-color: #555;
+}
+
+.name {
+    padding: 1em;
+}
+
+#info {
+    color: black;
+    margin: 2px;
+    font-size: 25px;
+    border-bottom: 5px solid green;
+}
+
+.infoparagraph {
+    font-family:georgia,garamond,serif;
+    font-size:16px;
+    font-style:italic;
+}
+
+#footer {
+    border-bottom: 5px solid green;
+    padding-bottom: 1em;
+}
+
+#topic-list {
+    list-style-type:none;
+}
+
+#topic-list > li {
+    border: 1px solid green;
+    padding: 1em;
+}
+
+#topic-list > li  > img {
+    display:block;
+    float:left;
+    width: 30%;
+    max-width: 200px;
+    max-height: 50px;
+}
+
+#topic-list > li:hover {
+    background-color: #555;
+}
+
+#topic-list > li > a {
+    width:inherit;
+    height:inherit;
+}
+
+#topicdiv {
+    border-bottom: 5px solid green;
 }
